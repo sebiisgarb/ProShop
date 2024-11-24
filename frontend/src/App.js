@@ -12,14 +12,14 @@ function App() {
   return (
     <Router>
       <Header />
-      <main className='py-3'>
-        <Container>
-          <Routes>
-          <Route path='/' Component={HomeScreen} exact />
-          <Route path='/product/:id' Component={ProductSreen} />
-          </Routes>
-        </Container>
-      </main>
+        <main className='py-3'>
+          <Container>
+            <Routes>
+              <Route path='/' Component={HomeScreen} exact />
+              <Route path='/product/:id' Component={ProductSreen} />
+            </Routes>
+          </Container>
+        </main>
       <Footer />
     </Router>
   );
